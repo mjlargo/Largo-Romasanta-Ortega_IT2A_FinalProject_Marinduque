@@ -31,26 +31,30 @@ if (isset($_POST['login'])){
 					if ($error) {
 						echo "<p>*Invalid username and/or password</p>";
 					}
-					?>
+			?>
+
 </div>
 <section>
 	<div class="main">
 		<input type="checkbox" id="chk" aria-hidden="true">
 			<div class="signup">
+
+			<?php
+			include ("register.php");
+			?>
 				<form>
 					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="username" placeholder="Username" >
-					<input type="email" name="email" placeholder="Email" >
-					<input type="password" name="password" placeholder="Password" >
+					<input type="text" name="username" placeholder="Username" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<input type="password" name="password" placeholder="Password" required>
 					<input type="submit" value="Sign up" name="signup">
 				</form>
 			</div>
-			
 			<div class="login">
 				<form method="post" action="">
 					<label for="chk" aria-hidden="true">Login</label>
-					<input type="text" name="username" placeholder="Username" >
-					<input type="password" name="password" placeholder="Password" >
+					<input type="text" name="username" placeholder="Username" required>
+					<input type="password" name="password" placeholder="Password" required>
 					
 					<input type="submit" value="Login" name="login">
 				</form>
@@ -60,3 +64,4 @@ if (isset($_POST['login'])){
 	
 </body>
 </html>
+

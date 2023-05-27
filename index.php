@@ -1,7 +1,7 @@
 <?php
 session_start();
 if(!file_exists('users/' . $_SESSION['username'] . '.xml')) {
-    header('location: login.php');
+    header('Location: login.php');
     die;
 }
 ?>
@@ -102,6 +102,7 @@ $img1 = "img/1logo.png";
                 <div class="container my-5 py-5">
                     <div class="row align-items-center g-5">
                         <div class="col-lg-6 text-center text-lg-start">
+                        <p class="text-white animated slideInLeft mb-4 pb-2">Welcome,  <?php echo $_SESSION['username'];?></p>
                             <h1 class="display-3 text-white animated slideInLeft"><?php echo "Hamos Na dini"?><br><?php echo "sa Marinduque!"?></h1>
                             <p class="text-white animated slideInLeft mb-4 pb-2"><?php echo "Halina't sama-sama nating tuklasin ang ipinagmamalaking ganda ng Marinduque"?></p>
                             <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"><?php echo "Explore"?></a>
