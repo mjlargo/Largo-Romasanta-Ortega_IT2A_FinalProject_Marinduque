@@ -1,14 +1,17 @@
-body{
+body {
+	background-image: url(../img/background1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+section {
 	margin: 0;
 	padding: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	min-height: 100vh;
-	font-family: 'Jost', sans-serif;
-	background-image: url(../img/background1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+	min-height: 80vh;
+	font-family: 'Jost', sans-serif;	
 }
 .main{
 	width: 350px;
@@ -49,7 +52,7 @@ input {
 	outline: none;
 	border-radius: 5px;
 }
-input[type=button], input[type=submit], input[type=reset] {
+input[type=submit]{
 	width: 60%;
 	height: 40px;
 	margin: 10px auto;
@@ -92,3 +95,13 @@ input[type=submit]:hover {
 	transform: scale(.6);
 }
 
+
+.div1{
+	margin: 5;
+	padding: 5;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Jost', sans-serif;
+	color: #da1f1f;
+}
