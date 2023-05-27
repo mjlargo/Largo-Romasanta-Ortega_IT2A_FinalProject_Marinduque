@@ -28,7 +28,7 @@ body{
 	height: 100%;
 }
 label{
-	color: #0F172B;
+	color: #ff00f2;
 	font-size: 2.3em;
 	justify-content: center;
 	display: flex;
@@ -37,7 +37,7 @@ label{
 	cursor: pointer;
 	transition: .5s ease-in-out;
 }
-input{
+.input{
 	width: 60%;
 	height: 20px;
 	background: #e0dede;
@@ -90,3 +90,4 @@ button:hover{
 #chk:checked ~ .signup label{
 	transform: scale(.6);
 }
+
