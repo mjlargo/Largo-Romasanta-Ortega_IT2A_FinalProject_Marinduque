@@ -26,13 +26,6 @@ $errors = array();
 						die;
 					}
 				}
+      
 				?>
 
-<?php
-		if (count ($errors) > 0) {
-			echo "<ul>";
-			foreach($errors as $e) {
-				echo "<li>" . $e . "</li>";
-			}
-		}
-		?>
