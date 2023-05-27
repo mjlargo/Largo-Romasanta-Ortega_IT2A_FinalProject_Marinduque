@@ -2,7 +2,7 @@
 <html>
 <head>
 	<title>Register/Login</title>
-	<link rel="stylesheet" type="text/css" href="css/loginstyle.css">
+	<link rel="stylesheet" type="text/css" href="css/style_login.css">
 <link href="https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -16,7 +16,7 @@
 					<input type="text" name="username" placeholder="Username" required="">
 					<input type="email" name="email" placeholder="Email" required="">
 					<input type="password" name="password" placeholder="Password" required="">
-					<button>Sign up</button>
+					<input type="submit" value="Sign up" name="signup">
 				</form>
 			</div>
 
