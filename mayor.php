@@ -1,12 +1,9 @@
-<?php
-$img1 = "img/1logo.png";
-?>
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 
-<head>
+<html>
     <meta charset="utf-8">
-    <title>"Marinduque"</title>
+    <title>Marinduque<?php echo "Bootstrap Restaurant Template"?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,7 +47,7 @@ $img1 = "img/1logo.png";
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class='fas fa-map-marker' style='font-size:45Spx;color:orange'></i><?php echo "Marinduque"?></h1>
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i><?php echo "Marinduque"?></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -58,17 +55,17 @@ $img1 = "img/1logo.png";
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.php" class="nav-item nav-link active"><?php echo "Home"?></a>
+                        <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link"><?php echo "About"?></a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
                             <div class="dropdown-menu m-0">
                                 <a href="boacmayor.php" class="dropdown-item"><?php echo "Armi Carrion"?></a>
-                                <a href="mogpogmayor.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
-                                <a href="santacruzmayor.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
-                                <a href="torrijosmayor.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
-                                <a href="gasanmayor.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
-                                <a href="buenavistamayor.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
+                                <a href="mogpog.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
+                                <a href="santacruz.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
+                                <a href="torrijos.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
+                                <a href="gasan.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
+                                <a href="buenavista.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
                             </div>
                         </div>
                         <div class="nav-item dropdown">
@@ -85,32 +82,27 @@ $img1 = "img/1logo.png";
                         <a href="reviews.php" class="nav-item nav-link"><?php echo "Reviews"?></a>
                         <a href="contact.php" class="nav-item nav-link"><?php echo "Contact"?></a>
                     </div>
-                    <a href="login.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
+                    <a href="sign.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
                 </div>
             </nav>
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft"><?php echo "Hamos Na dini"?><br><?php echo "sa Marinduque!"?></h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2"><?php echo "Halina't sama-sama nating tuklasin ang ipinagmamalaking ganda ng Marinduque"?></p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"><?php echo "Explore"?></a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src=<?php echo "img/1logo.png"?> alt="">
-                        </div>
-                    </div>
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Mayors"?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#"><?php echo "Home"?></a></li>
+                            <li class="breadcrumb-item"><a href="#"><?php echo "Pages"?></a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo "Mayors"?></li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
         <!-- Navbar & Hero End -->
-
-
-
-
+ 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-down"></i></a>
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->

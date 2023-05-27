@@ -1,15 +1,12 @@
 <?php
-$img1 = "img/testimonial-1.jpg";
-$img2 = "img/testimonial-2.jpg";
-$img3 = "img/testimonial-3.jpg";
-$img4 = "img/testimonial-4.jpg";
+$img1 = "img/mayor4.jpg";
 ?>
 <!DOCTYPE html>
-<html lang="en">
+<php lang="en">
 
-<head>
+<html>
     <meta charset="utf-8">
-    <title>Marinduque <?php echo "Bootstrap Restaurant Template"?></title>
+    <title>Marinduque<?php echo "Bootstrap Restaurant Template"?></title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -53,7 +50,7 @@ $img4 = "img/testimonial-4.jpg";
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                    <h1 class="text-primary m-0"><i class='fas fa-map-marker' style='font-size:45Spx;color:orange'></i><?php echo "Marinduque"?></h1>
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i><?php echo "Marinduque"?></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -85,7 +82,7 @@ $img4 = "img/testimonial-4.jpg";
                                 <a href="buenavista.php" class="dropdown-item"><?php echo "Buenavista"?></a>
                             </div>
                         </div>
-                        <a href="reviews.php" class="nav-item nav-link active"><?php echo "Reviews"?></a>
+                        <a href="reviews.php" class="nav-item nav-link"><?php echo "Reviews"?></a>
                         <a href="contact.php" class="nav-item nav-link"><?php echo "Contact"?></a>
                     </div>
                     <a href="sign.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
@@ -94,12 +91,12 @@ $img4 = "img/testimonial-4.jpg";
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Reviews"?></h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Mayors"?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#"><?php echo "Home"?></a></li>
                             <li class="breadcrumb-item"><a href="#"><?php echo "Pages"?></a></li>
-                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo "Reviews"?></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo "Mayors"?></li>
                         </ol>
                     </nav>
                 </div>
@@ -108,67 +105,47 @@ $img4 = "img/testimonial-4.jpg";
         <!-- Navbar & Hero End -->
 
 
-        <!-- Testimonial Start -->
-        <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="container">
-                <div class="text-center">
-                    <h5 class="section-title ff-secondary text-center text-primary fw-normal"><?php echo "Reviews"?></h5>
-                    <h1 class="mb-5"><?php echo "Tourist Say!!!"?></h1>
-                </div>
-                <div class="owl-carousel testimonial-carousel">
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p><?php echo "Visit Maniwaya Island, a stunning island with powdery white sand, crystal clear water, and a nearby sandbar that appears during low tide. 
-                        You can stay at Wawie’s Beach Resort for a relaxing and comfortable accommodation."?></p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src=<?php echo "img/testimonial-1.jpg"?> style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1"><?php echo "Maria Salas"?></h5>
-                                <small><?php echo "Tourist"?></small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p><?php echo "Explore Boac Cathedral, a large and impressive church with a historical belfry. It is located on a hill overlooking the river and the town of Boac, the capital of Marinduque."?></p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src=<?php echo "img/testimonial-2.jpg"?> style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1"><?php echo "Mark Leo"?></h5>
-                                <small><?php echo "Tourist"?></small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p><?php echo "Enjoy Poctoy White Beach, a long and clean beach with calm water and a view of Mt. Malindig, an inactive volcano. You can also try some local delicacies and souvenirs at the nearby stalls."?></p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src=<?php echo "img/testimonial-3.jpg"?> style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1"><?php echo "Lisa Menda"?></h5>
-                                <small><?php echo "Tourist"?></small>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="testimonial-item bg-transparent border rounded p-4">
-                        <i class="fa fa-quote-left fa-2x text-primary mb-3"></i>
-                        <p><?php echo "Discover Bagumbungan Cave, a cavern with stalactites, stalagmites, rock formations, and a subterranean river. You can also see some bats, birds, and insects inside the cave."?></p>
-                        <div class="d-flex align-items-center">
-                            <img class="img-fluid flex-shrink-0 rounded-circle" src=<?php echo "img/testimonial-4.jpg"?> style="width: 50px; height: 50px;">
-                            <div class="ps-3">
-                                <h5 class="mb-1"><?php echo "Gela Dika"?></h5>
-                                <small><?php echo "Tourist"?></small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Testimonial End -->
+        <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
 
-        
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="section-title">
+          <h2><?php echo "Lorna Velaso"?></h2>
+          <p><?php echo "Mayor of Torrijos"?></p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <?php echo "Personal Information"?>
+                  <br>
+                  <?php echo "Complete Name –> Lorna Quinto Velasco
+                Hometown –> Torrijos, Marinduque, Philippines
+                Political Career / Work Experiences
+                2019-Present – Mayor
+                <br>
+                Lorna Velasco is a Filipino politician. She is currently serving as mayor of Torrijos, a municipality of Marinduque Province in MiMaRoPa Region or Region IV-B, Philippines. 
+                Lorna Quinto Velasco is a Local Government Unit (LGU) official of the Philippines for the election year of 2019-2022 serving in the capacity of: Municipal Mayor of Torrijos"?>
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="img/mayor4.jpg" class="testimonial-img" alt="">
+                <h3><?php echo "Lorna Velaso"?></h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+         <!-- Footer Start -->
+         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -203,7 +180,7 @@ $img4 = "img/testimonial-4.jpg";
                         <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><?php echo "SignUp"?></button>
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>

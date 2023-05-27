@@ -1,4 +1,11 @@
-<!DOCTYPE html>
+<?php
+$img1 = "img/malbogs.jpg";
+$img2 = "img/bella.png";
+$img3 = "img/mount.png";
+$img4 = "img/sap.jpeg";
+$img3 = "img/kanin.jpg";
+$img4 = "img/pilok.jpeg";
+?><!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -58,8 +65,17 @@
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link"><?php echo "About"?></a>
-                        <a href="service.php" class="nav-item nav-link"><?php echo "Mayors"?></a>
-                        <a href="menu.php" class="nav-item nav-link"><?php echo "Menu"?></a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="boacmayor.php" class="dropdown-item"><?php echo "Armi Carrion"?></a>
+                                <a href="mogpogmayor.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
+                                <a href="santacruzmayor.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
+                                <a href="torrijosmayor.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
+                                <a href="gasanmayor.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
+                                <a href="buenavistamayor.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
+                            </div>
+                        </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Towns"?></a>
                             <div class="dropdown-menu m-0">
@@ -81,7 +97,7 @@
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Buenavista Marinduque"?></h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Buenavista"?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#"><?php echo "Buenavista is a municipality located in the province of Marinduque, Philippines. It is situated on the northern coast of Marinduque Island, offering a mix of natural beauty, historical landmarks, and a peaceful rural atmosphere."?></a></li>
@@ -93,44 +109,7 @@
         <!-- Navbar & Hero End -->
 
 
-            <!----- FOODS  ----->
-
-    <section class="food">
-      <h2><?php echo "Festivals!"?></h2>
-      <p>
-      <?php echo "Philippines are not only known by its popular tourist Spots but also in foods."?>
-      </p>
-
-      <div class="row">
-        <div class="food-col">
-          <img src=<?php echo"img/sinigang.jpg"?> alt="" />
-          <h3><?php echo "Sinigang na Hipon In Luzon"?></h3>
-          <p>
-          <?php echo " Sinigang is another popular and important dish in Filipino cuisine. 
-            It refers to a type of soup or stew characterized by its sour and savory flavors. 
-            Sinigang is usually made with different vegetables and some type of meat or seafood 
-            like pork, beef, shrimp, or fish. "?>
-          </p>
-        </div>
-        <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Bulalo with Lemongrass and Ginger In Visayas"?></h3>
-          <p>
-          <?php echo "The lemongrass lends a subtle citrusy element while the ginger brings forth a zesty kick, 
-            making enjoying this fork-tender bulalo an even more reinvigorating experience."?>
-          </p>
-        </div>
-        <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Curacha In Mindanao"?></h3>
-          <p>
-          <?php echo "Curacha is famous in Mindanao, especially in Zamboanga. It’s a spanner crab or red frog
-             crab, a crustacean hybrid native to the waters of 
-            Zamboanga and Sulu. It can be cooked with sauce or steamed."?>
-          </p>
-        </div>
-      </div>
-    </section>
+    <!----- FOODS  ----->
 
     <section class="food">
       <h2><?php echo "Tourist Spots"?></h2>
@@ -140,30 +119,24 @@
 
       <div class="row">
         <div class="food-col">
-          <img src=<?php echo"img/sinigang.jpg"?> alt="" />
-          <h3><?php echo "Sinigang na Hipon In Luzon"?></h3>
+          <img src=<?php echo"img/malbogs.jpg"?> alt="" />
+          <h3><?php echo "Malbog Hot Spring"?></h3>
           <p>
-          <?php echo "Sinigang is another popular and important dish in Filipino cuisine. 
-            It refers to a type of soup or stew characterized by its sour and savory flavors. 
-            Sinigang is usually made with different vegetables and some type of meat or seafood 
-            like pork, beef, shrimp, or fish. "?>
+          <?php echo " Malbog Sulfuric Hot Spring Resort situated at Brgy. Malbog in Buenavista. The hot spring is said to have a sulfur content, perfect for skin treatment and internal problems such as menopausal symptoms and digestive disorders. There’s also a cottage available for rent if you visit huge groups. "?>
           </p>
         </div>
         <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Bulalo with Lemongrass and Ginger In Visayas"?></h3>
+          <img src=<?php echo "img/bella.png"?> alt="" />
+          <h3><?php echo "Bellarocca Island"?></h3>
           <p>
-          <?php echo "The lemongrass lends a subtle citrusy element while the ginger brings forth a zesty kick, 
-            making enjoying this fork-tender bulalo an even more reinvigorating experience."?>
+          <?php echo "Bellarocca Island is situated off the south west coast of the Marinduque province. Characterized by seaside cliffs, valleys, hills and sparsely dotted plains across this heart-shaped region, therein lies even more impressively hot springs, waterfalls and underwater flora and fauna. In addition to these, there are caves that await exploration by adventurous travelers. Many are yet to be fully investigated or documented."?>
           </p>
         </div>
         <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Curacha In Mindanao"?></h3>
+          <img src=<?php echo "img/mount.png"?> alt="" />
+          <h3><?php echo "Mt. Malindig"?></h3>
           <p>
-          <?php echo "Curacha is famous in Mindanao, especially in Zamboanga. It’s a spanner crab or red frog
-             crab, a crustacean hybrid native to the waters of 
-            Zamboanga and Sulu. It can be cooked with sauce or steamed."?>
+          <?php echo "Dominating the skyline south of Marinduque is Mt. Malindig, an inactive volcano. Dense forest covers its upper half. Found in abundance are giant trees, moss forest and wild orchids. The rest is nearly deforested due to the slash and burn method of farming. This however, does not diminish the attraction of Mt. Malindig, which until now remains an excellent place for mountain climbing, camping and bird watching."?>
           </p>
         </div>
       </div>
@@ -177,30 +150,24 @@
 
       <div class="row">
         <div class="food-col">
-          <img src=<?php echo"img/sinigang.jpg"?> alt="" />
-          <h3><?php echo "Sinigang na Hipon In Luzon"?></h3>
+          <img src=<?php echo"img/sap.jpeg"?> alt="" />
+          <h3><?php echo "Tinigang na Sapsap"?></h3>
           <p>
-          <?php echo "Sinigang is another popular and important dish in Filipino cuisine. 
-            It refers to a type of soup or stew characterized by its sour and savory flavors. 
-            Sinigang is usually made with different vegetables and some type of meat or seafood 
-            like pork, beef, shrimp, or fish. "?>
+          <?php echo "Tinigang na sapsap is cooked similarly to a pinangat dish, meaning the sapsap fish is stewed with souring agents like tomatoes, calamansi, or tamarind. This dish is delicious when paired with a cup of steaming rice."?>
           </p>
         </div>
         <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Bulalo with Lemongrass and Ginger In Visayas"?></h3>
+          <img src=<?php echo "img/kanin.jpg"?> alt="" />
+          <h3><?php echo "Bibingkang Kanin"?></h3>
           <p>
-          <?php echo "The lemongrass lends a subtle citrusy element while the ginger brings forth a zesty kick, 
-            making enjoying this fork-tender bulalo an even more reinvigorating experience."?>
+          <?php echo "This is the third native Marinduque bibingka on this list. Bibingkang Kanin, just like bibingkang lalaki and bibingkang pinahiran, is a unique version of the popular kakanin, bibingka, originated in the island province of Marinduque."?>
           </p>
         </div>
         <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Curacha In Mindanao"?></h3>
+          <img src=<?php echo "img/pilok.jpeg"?> alt="" />
+          <h3><?php echo "Sampililok"?></h3>
           <p>
-          <?php echo "Curacha is famous in Mindanao, especially in Zamboanga. It’s a spanner crab or red frog
-             crab, a crustacean hybrid native to the waters of 
-            Zamboanga and Sulu. It can be cooked with sauce or steamed."?>
+          <?php echo "Speaking of sampililok, it’s our next entry on this list! Sampililok is often referred to as a coco jam, but it’s most accurately described as suman sauce because suman in Marinduque always needs to be accompanied by a dash of sampililok on the side."?>
           </p>
         </div>
       </div>
@@ -208,8 +175,8 @@
         <!-- FOODS ENDS -->
         
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+         <!-- Footer Start -->
+         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -244,37 +211,18 @@
                         <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><?php echo "SignUp"?></button>
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#"><?php echo "Your Site Name"?></a>, <?php echo "All Right Reserved."?>
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-							<?php echo "Designed By"?> <a class="border-bottom" href="https://phpcodex.com"><?php echo "PHP Codex"?></a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href=""><?php echo "Home"?></a>
-                                <a href=""><?php echo "Cookies"?></a>
-                                <a href=""><?php echo "Help"?></a>
-                                <a href=""><?php echo "FQAs"?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->

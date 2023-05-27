@@ -1,9 +1,19 @@
+<?php
+$img1 = "img/mani.jpg";
+$img2 = "img/rejano.jpg";
+$img3 = "img/boac.jpg";
+$img4 = "img/morionn.jpg";
+$img5 = "img/team-1.jpg";
+$img6 = "img/team-2.jpg";
+$img7 = "img/team-3.jpg";
+$img8 = "img/team-4.jpg";
+?>
 <!DOCTYPE html>
-<php lang="en">
+<html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title><?php echo "Marinduque"?></title>
+    <title>"Marinduque"</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -57,8 +67,17 @@
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link active"><?php echo "About"?></a>
-                        <a href="service.php" class="nav-item nav-link"><?php echo "Mayors"?></a>
-                        <a href="menu.php" class="nav-item nav-link"><?php echo "Menu"?></a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="boacmayor.php" class="dropdown-item"><?php echo "Armi Carrion"?></a>
+                                <a href="mogpogmayor.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
+                                <a href="santacruzmayor.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
+                                <a href="torrijosmayor.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
+                                <a href="gasanmayor.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
+                                <a href="buenavistamayor.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
+                            </div>
+                        </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Towns"?></a>
                             <div class="dropdown-menu m-0">
@@ -100,16 +119,16 @@
                     <div class="col-lg-6">
                         <div class="row g-3">
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/mani.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src=<?php echo "img/mani.jpg"?> alt="">
                             </div>
                             <div class="col-6 text-start">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/rejano.jpg" style="margin-top: 25%;">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src=<?php echo "img/rejano.jpg"?> style="margin-top: 25%;">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/boac.jpg">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src=<?php echo "img/boac.jpg"?> alt="">
                             </div>
                             <div class="col-6 text-end">
-                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/morionn.jpg">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src=<?php echo "img/morionn.jpg"?> alt="">
                             </div>
                         </div>
                     </div>
@@ -118,28 +137,7 @@
                         <h1 class="mb-4"><?php echo "Welcome to"?> <i class='fas fa-map-marker' style='font-size:45px;color:orange'></i><?php echo "Marinduque"?></h1>
                         <p class="mb-4"><?php echo "Marinduque is a heart-shaped island between Tayabas Bay in the north and Sibuyan Sea to the south. Its capital is Boac. It is located south and west of Quezon, east of Mindoro, and north of Romblon."?></p>
                         <p class="mb-4"><?php echo "Marinduqueños are said to be very hospitable in nature and are very welcoming. One such custom reflecting this is putong or tubong, which is a custom of welcoming and honoring friends and visitors. The honoree (or honorees) are seated and crowned with flowers while local women dance and sing for them. Other well-wishers throw coins and flower petals for long life. Marinduqueños are of Tagalog origin and speak Tagalog."?></p>
-                        <div class="row g-4 mb-4">
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up"><?php echo "15"?></h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0"><?php echo "Years of"?></p>
-                                        <h6 class="text-uppercase mb-0"><?php echo "Experience"?></h6>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-sm-6">
-                                <div class="d-flex align-items-center border-start border-5 border-primary px-3">
-                                    <h1 class="flex-shrink-0 display-5 text-primary mb-0" data-toggle="counter-up"><?php echo "50"?></h1>
-                                    <div class="ps-4">
-                                        <p class="mb-0"><?php echo "Popular"?></p>
-                                        <h6 class="text-uppercase mb-0"><?php echo "Master Chefs"?></h6>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <a class="btn btn-primary py-3 px-5 mt-2" href=""><?php echo "Read More"?></a>
-                    </div>
+                        <p class="mb-4"><?php echo "Marinduque a small yet fantastic island with a shape of a human heart floating on a clear blue sea, lives up to its name. It has one of the friendliest and most hospitable locals in the country."?></p>
                 </div>
             </div>
         </div>
@@ -157,7 +155,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-1.jpg" alt="">
+                                <img class="img-fluid" src=<?php echo "img/team-1.jpg"?> alt="">
                             </div>
                             <h5 class="mb-0"><?php echo "Full Name"?></h5>
                             <small><?php echo "Designation"?></small>
@@ -171,7 +169,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-2.jpg" alt="">
+                                <img class="img-fluid" src=<?php echo "img/team-2.jpg"?> alt="">
                             </div>
                             <h5 class="mb-0"><?php echo "Full Name"?></h5>
                             <small><?php echo "Designation"?></small>
@@ -185,7 +183,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-3.jpg" alt="">
+                                <img class="img-fluid" src=<?php echo "img/team-3.jpg"?> alt="">
                             </div>
                             <h5 class="mb-0"><?php echo "Full Name"?></h5>
                             <small><?php echo "Designation"?></small>
@@ -199,7 +197,7 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src="img/team-4.jpg" alt="">
+                                <img class="img-fluid" src=<?php echo "img/team-4.jpg"?> alt="">
                             </div>
                             <h5 class="mb-0"><?php echo "Full Name"?></h5>
                             <small><?php echo "Designation"?></small>
@@ -216,8 +214,9 @@
         <!-- Team End -->
         
 
-        <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        
+      <!-- Footer Start -->
+      <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
@@ -252,37 +251,18 @@
                         <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><?php echo "SignUp"?></button>
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#"><?php echo "Your Site Name"?></a>,<?php echo " All Right Reserved."?> 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-							<?php echo "Designed By "?><a class="border-bottom" href="https://phpcodex.com"><?php echo "PHP Codex"?></a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href=""><?php echo "Home"?></a>
-                                <a href=""><?php echo "Cookies"?></a>
-                                <a href=""><?php echo "Help"?></a>
-                                <a href=""><?php echo "FQAs"?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
@@ -301,4 +281,5 @@
     <script src="js/main.js"></script>
 </body>
 
-</php>
+</html>
+

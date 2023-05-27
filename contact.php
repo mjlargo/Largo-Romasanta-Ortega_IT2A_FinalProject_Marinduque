@@ -57,8 +57,17 @@
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link"><?php echo "About"?></a>
-                        <a href="service.php" class="nav-item nav-link"><?php echo "Mayors"?></a>
-                        <a href="menu.php" class="nav-item nav-link"><?php echo "Menu"?></a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="boacmayor.php" class="dropdown-item"><?php echo "Armi Carrion"?></a>
+                                <a href="mogpogmayor.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
+                                <a href="santacruzmayor.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
+                                <a href="torrijosmayor.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
+                                <a href="gasanmayor.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
+                                <a href="buenavistamayor.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
+                            </div>
+                        </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Towns"?></a>
                             <div class="dropdown-menu m-0">
@@ -204,31 +213,12 @@
                 </div>
             </div>
             <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#"><?php echo "Your Site Name"?></a>,<?php echo " All Right Reserved."?> 
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-							<?php echo "Designed By"?> <a class="border-bottom" href="https://phpcodex.com">PHP Codex</a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href=""><?php echo "Home"?></a>
-                                <a href=""><?php echo "Cookies"?></a>
-                                <a href=""><?php echo "Help"?></a>
-                                <a href=""><?php echo "FQAs"?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->

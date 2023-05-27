@@ -1,12 +1,12 @@
 <?php
-$img1 = "img/1logo.png";
+$img1 = "img/mayor6.jpg";
 ?>
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
+<html>
     <meta charset="utf-8">
-    <title>"Marinduque"</title>
+    <title>Marinduque</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -50,7 +50,7 @@ $img1 = "img/1logo.png";
         <div class="container-xxl position-relative p-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0">
                 <a href="" class="navbar-brand p-0">
-                <h1 class="text-primary m-0"><i class='fas fa-map-marker' style='font-size:45Spx;color:orange'></i><?php echo "Marinduque"?></h1>
+                    <h1 class="text-primary m-0"><i class="fa fa-utensils me-3"></i><?php echo "Marinduque"?></h1>
                     <!-- <img src="img/logo.png" alt="Logo"> -->
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -58,7 +58,7 @@ $img1 = "img/1logo.png";
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <div class="navbar-nav ms-auto py-0 pe-4">
-                        <a href="index.php" class="nav-item nav-link active"><?php echo "Home"?></a>
+                        <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link"><?php echo "About"?></a>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
@@ -85,32 +85,105 @@ $img1 = "img/1logo.png";
                         <a href="reviews.php" class="nav-item nav-link"><?php echo "Reviews"?></a>
                         <a href="contact.php" class="nav-item nav-link"><?php echo "Contact"?></a>
                     </div>
-                    <a href="login.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
+                    <a href="sign.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
                 </div>
             </nav>
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
-                <div class="container my-5 py-5">
-                    <div class="row align-items-center g-5">
-                        <div class="col-lg-6 text-center text-lg-start">
-                            <h1 class="display-3 text-white animated slideInLeft"><?php echo "Hamos Na dini"?><br><?php echo "sa Marinduque!"?></h1>
-                            <p class="text-white animated slideInLeft mb-4 pb-2"><?php echo "Halina't sama-sama nating tuklasin ang ipinagmamalaking ganda ng Marinduque"?></p>
-                            <a href="" class="btn btn-primary py-sm-3 px-sm-5 me-3 animated slideInLeft"><?php echo "Explore"?></a>
-                        </div>
-                        <div class="col-lg-6 text-center text-lg-end overflow-hidden">
-                            <img class="img-fluid" src=<?php echo "img/1logo.png"?> alt="">
-                        </div>
-                    </div>
+                <div class="container text-center my-5 pt-5 pb-4">
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Mayors"?></h1>
+                    <nav aria-label="breadcrumb">
+                        <ol class="breadcrumb justify-content-center text-uppercase">
+                            <li class="breadcrumb-item"><a href="#"><?php echo "Home"?></a></li>
+                            <li class="breadcrumb-item"><a href="#"><?php echo "Pages"?></a></li>
+                            <li class="breadcrumb-item text-white active" aria-current="page"><?php echo "Mayors"?></li>
+                        </ol>
+                    </nav>
                 </div>
             </div>
         </div>
         <!-- Navbar & Hero End -->
 
 
+        <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2><?php echo "Bong Siena"?></h2>
+          <p><?php echo "Mayor of Buenavista"?></p>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <?php echo "Siena, Eduard Llante is running for Municipal Mayor in the upcoming Philippine elections. He is running in Buenavista. He is campaigning as an independent, without affiliation to a political party. "?>
+                <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="img/mayor6.jpg" class="testimonial-img" alt="">
+                <h3>Armi Carrion</h3>
+                <h4>Ceo &amp; Founder</h4>
+              </div>
+            </div><!-- End testimonial item -->
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+         <!-- Footer Start -->
+         <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Company"?></h4>
+                        <a class="btn btn-link" href=""><?php echo "About Us"?></a>
+                        <a class="btn btn-link" href=""><?php echo "Contact Us"?></a>
+                        <a class="btn btn-link" href=""><?php echo "Reservation"?></a>
+                        <a class="btn btn-link" href=""><?php echo "Privacy Policy"?></a>
+                        <a class="btn btn-link" href=""><?php echo "Terms & Condition"?></a>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Contact"?></h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><?php echo "123 Street, New York, USA"?></p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><?php echo "+012 345 67890"?></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><?php echo "info@example.com"?></p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Opening"?></h4>
+                        <h5 class="text-light fw-normal"><?php echo "Monday - Saturday"?></h5>
+                        <p><?php echo "09AM - 09PM"?></p>
+                        <h5 class="text-light fw-normal"><?php echo "Sunday"?></h5>
+                        <p><?php echo "10AM - 08PM"?></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Newsletter"?></h4>
+                        <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
+                        <div class="position-relative mx-auto" style="max-width: 400px;">
+                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+        </div>
+        <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-down"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->

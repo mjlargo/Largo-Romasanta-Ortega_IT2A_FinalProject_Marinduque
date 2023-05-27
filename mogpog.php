@@ -1,3 +1,11 @@
+<?php
+$img1 = "img/paadjao1.jpg";
+$img2 = "img/luzon2.jpg";
+$img3 = "img/ulong3.jpg";
+$img4 = "img/Ginataang.jpg";
+$img3 = "img/Tinudtod.jpg";
+$img4 = "img/Ulang1.jpg";
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -57,8 +65,17 @@
                     <div class="navbar-nav ms-auto py-0 pe-4">
                         <a href="index.php" class="nav-item nav-link"><?php echo "Home"?></a>
                         <a href="about.php" class="nav-item nav-link"><?php echo "About"?></a>
-                        <a href="service.php" class="nav-item nav-link"><?php echo "Mayors"?></a>
-                        <a href="menu.php" class="nav-item nav-link"><?php echo "Menu"?></a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Mayors"?></a>
+                            <div class="dropdown-menu m-0">
+                                <a href="boacmayor.php" class="dropdown-item"><?php echo "Armi Carrion"?></a>
+                                <a href="mogpogmayor.php" class="dropdown-item"><?php echo "Leo Livelo"?></a>
+                                <a href="santacruzmayor.php" class="dropdown-item"><?php echo "Marisa Red"?></a>
+                                <a href="torrijosmayor.php" class="dropdown-item"><?php echo "Lorna Velasco"?></a>
+                                <a href="gasanmayor.php" class="dropdown-item"><?php echo "Rolando Tolentino"?></a>
+                                <a href="buenavistamayor.php" class="dropdown-item"><?php echo "Bong Siena"?></a>
+                            </div>
+                        </div>
                         <div class="nav-item dropdown">
                             <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><?php echo "Towns"?></a>
                             <div class="dropdown-menu m-0">
@@ -80,7 +97,7 @@
 
             <div class="container-xxl py-5 bg-dark hero-header mb-5">
                 <div class="container text-center my-5 pt-5 pb-4">
-                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Mogpog Marinduque"?></h1>
+                    <h1 class="display-3 text-white mb-3 animated slideInDown"><?php echo "Mogpog"?></h1>
                     <nav aria-label="breadcrumb">
                         <ol class="breadcrumb justify-content-center text-uppercase">
                             <li class="breadcrumb-item"><a href="#"><?php echo "Mogpog is a municipality located in the province of Marinduque in the Philippines. It is situated on the island of Marinduque, which is known for its scenic landscapes, pristine beaches, and rich cultural heritage.
@@ -95,44 +112,7 @@
 
 
             <!----- FOODS  ----->
-
-    <section class="food">
-      <h2><?php echo "Festivals!"?></h2>
-      <p>
-      <?php echo "Philippines are not only known by its popular tourist Spots but also in foods."?>
-      </p>
-
-      <div class="row">
-        <div class="food-col">
-          <img src=<?php echo"img/sinigang.jpg"?> alt="" />
-          <h3><?php echo "Sinigang na Hipon In Luzon"?></h3>
-          <p>
-          <?php echo "Sinigang is another popular and important dish in Filipino cuisine. 
-            It refers to a type of soup or stew characterized by its sour and savory flavors. 
-            Sinigang is usually made with different vegetables and some type of meat or seafood 
-            like pork, beef, shrimp, or fish. "?>
-          </p>
-        </div>
-        <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Bulalo with Lemongrass and Ginger In Visayas"?></h3>
-          <p>
-          <?php echo "The lemongrass lends a subtle citrusy element while the ginger brings forth a zesty kick, 
-            making enjoying this fork-tender bulalo an even more reinvigorating experience."?>
-          </p>
-        </div>
-        <div class="food-col">
-          <img src=<?php echo "img/vc.jpeg"?> alt="" />
-          <h3><?php echo "Curacha In Mindanao"?></h3>
-          <p>
-          <?php echo "Curacha is famous in Mindanao, especially in Zamboanga. It’s a spanner crab or red frog
-             crab, a crustacean hybrid native to the waters of 
-            Zamboanga and Sulu. It can be cooked with sauce or steamed."?>
-          </p>
-        </div>
-      </div>
-    </section>
-
+            
     <section class="food">
       <h2><?php echo "Tourist Spots"?></h2>
       <p>
@@ -241,37 +221,18 @@
                         <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
                         <div class="position-relative mx-auto" style="max-width: 400px;">
                             <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2"><?php echo "SignUp"?></button>
+                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="container">
-                <div class="copyright">
-                    <div class="row">
-                        <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                            &copy; <a class="border-bottom" href="#"><?php echo "Your Site Name"?></a>, <?php echo "All Right Reserved."?>
-							
-							<!--/*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://phpcodex.com/credit-removal". Thank you for your support. ***/-->
-							<?php echo "Designed By"?> <a class="border-bottom" href="https://phpcodex.com"><?php echo "PHP Codex"?></a>
-                        </div>
-                        <div class="col-md-6 text-center text-md-end">
-                            <div class="footer-menu">
-                                <a href=""><?php echo "Home"?></a>
-                                <a href=""><?php echo "Cookies"?></a>
-                                <a href=""><?php echo "Help"?></a>
-                                <a href=""><?php echo "FQAs"?></a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
         </div>
         <!-- Footer End -->
 
 
         <!-- Back to Top -->
-        <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
     </div>
 
     <!-- JavaScript Libraries -->
