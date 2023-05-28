@@ -83,9 +83,9 @@ $errors = array();
 			
 				<form method="post" >
 					<label for="chk" aria-hidden="true">Sign up</label>
-					<input type="text" name="username" placeholder="Username" >
-					<input type="email" name="email" placeholder="Email" >
-					<input type="password" name="password" placeholder="Password" >
+					<input type="text" name="username" placeholder="Username" required>
+					<input type="email" name="email" placeholder="Email" required>
+					<input type="password" name="password" placeholder="Password" required>
 					<input type="submit" value="Sign up" name="signup">
 				</form>
 			</div>

@@ -1,4 +1,4 @@
-/********** Template CSS **********/
+
 :root {
     --primary: #FEA116;
     --light: #F1F8FF;
@@ -593,3 +593,4 @@
 .testimonials .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #cda45e;
 }
+
