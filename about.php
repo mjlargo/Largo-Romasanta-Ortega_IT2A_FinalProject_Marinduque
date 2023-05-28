@@ -1,19 +1,9 @@
-<?php
-$img1 = "img/mani.jpg";
-$img2 = "img/rejano.jpg";
-$img3 = "img/boac.jpg";
-$img4 = "img/morionn.jpg";
-$img5 = "img/boac1.jpg";
-$img6 = "img/mogpog1.jpg";
-$img7 = "img/team-3.jpg";
-$img8 = "img/team-4.jpg";
-?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="utf-8">
-    <title>"Marinduque"</title>
+    <title>About</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -180,26 +170,52 @@ $img8 = "img/team-4.jpg";
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src=<?php echo "img/santacruz1.jpg"?> alt="">
+                                <a href="santacruz.php"><img class="img-fluid" src=<?php echo "img/santacruz1.jpg"?> alt=""></a> 
                             </div>
-                            <h5 class="mb-0"><?php echo "SANTA CRUZ"?></h5>
+                                <a href="santacruz.php"><h5 class="mb-0"><?php echo "SANTA CRUZ"?></h5></a> 
                             <small><?php echo "The municipal jurisdiction also includes the islands of Maniwaya, Mongpong, Salomague, and Santa Cruz, as well as several minor islets."?></small>
                             <div class="d-flex justify-content-center mt-3">
-                            <a href="santacruz.php">Click to View More</a> 
+                                <a href="santacruz.php">Click to View More</a> 
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <img class="img-fluid" src=<?php echo "img/team-4.jpg"?> alt="">
+                                <a href="torrijos.php"><img class="img-fluid" src=<?php echo "img/torrijos1.jpg"?> alt=""></a> 
                             </div>
-                            <h5 class="mb-0"><?php echo "Full Name"?></h5>
-                            <small><?php echo "Designation"?></small>
+                                <a href="torrijos.php"><h5 class="mb-0"><?php echo "TORRIJOS"?></h5></a> 
+                            <small><?php echo "A long stretch of white-sand beach in Poctoy, Torrijos town is considered the finest and most accessible white sand beach in mainland Marinduque."?></small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-facebook-f"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-twitter"></i></a>
-                                <a class="btn btn-square btn-primary mx-1" href=""><i class="fab fa-instagram"></i></a>
+                                <a href="torrijos.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <a href="boac.php"><img class="img-fluid" src=<?php echo "img/gasan1.jpg"?> alt=""></a>
+                            </div>
+                                <a href="boac.php"><h5 class="mb-0"><?php echo "GASAN"?></h5></a>
+                            <small><?php echo "The Capital Town of Marinduque and the 
+                            business,financial and economic center of the province. It has 61 Barangays grouped into 7 districts."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="gasan.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                            <a href="mogpog.php"> <img class="img-fluid" src=<?php echo "img/mogpog1.jpg"?> alt=""></a> 
+                            </div>
+                                <a href="mogpog.php"><h5 class="mb-0"><?php echo "MOGPOG"?></h5></a> 
+                            <small><?php echo "A coastal municipality in the island province of Marinduque. One of the country’s finest and probably the most picturesque of all natural harbors. "?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="mogpog.php">Click to View More</a> 
                             </div>
                         </div>
                     </div>
