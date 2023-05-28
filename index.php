@@ -146,16 +146,160 @@ $img1 = "img/1logo.png";
                         <div class="row g-4 mb-4">
                         <div> 
                         <a class="btn btn-primary py-3 px-5 mt-2" href="about.php"><?php echo "Read More"?></a>
+                        
                         </div>   
                     </div>
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <br>
+              
         <!-- About End -->
+
+        <!-- Team Start -->
+        <div class="container-xxl pt-5 pb-3">
+            <div class="container">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <h5 class="section-title ff-secondary text-center text-primary fw-normal"><?php echo "Visit the Pages"?></h5>
+                    <h1 class="mb-5"><?php echo "EXPLORE OUR TOWNS"?></h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <a href="boac.php"><img class="img-fluid" src=<?php echo "img/boac1.jpg"?> alt=""></a>
+                            </div>
+                                <a href="boac.php"><h5 class="mb-0"><?php echo "BOAC"?></h5></a>
+                            <small><?php echo "The Capital Town of Marinduque and the 
+                            business,financial and economic center of the province. It has 61 Barangays grouped into 7 districts."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="boac.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                            <a href="mogpog.php"> <img class="img-fluid" src=<?php echo "img/mogpog1.jpg"?> alt=""></a> 
+                            </div>
+                                <a href="mogpog.php"><h5 class="mb-0"><?php echo "MOGPOG"?></h5></a> 
+                            <small><?php echo "A coastal municipality in the island province of Marinduque. One of the country’s finest and probably the most picturesque of all natural harbors. "?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="mogpog.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <a href="santacruz.php"><img class="img-fluid" src=<?php echo "img/santacruz1.jpg"?> alt=""></a> 
+                            </div>
+                                <a href="santacruz.php"><h5 class="mb-0"><?php echo "SANTA CRUZ"?></h5></a> 
+                            <small><?php echo "The municipal jurisdiction also includes the islands of Maniwaya, Mongpong, Salomague, and Santa Cruz, as well as several minor islets."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="santacruz.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <a href="torrijos.php"><img class="img-fluid" src=<?php echo "img/torrijos1.jpg"?> alt=""></a> 
+                            </div>
+                                <a href="torrijos.php"><h5 class="mb-0"><?php echo "TORRIJOS"?></h5></a> 
+                            <small><?php echo "A long stretch of white-sand beach in Poctoy, Torrijos town is considered the finest and most accessible white sand beach in mainland Marinduque."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="torrijos.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                                <a href="gasan.php"><img class="img-fluid" src=<?php echo "img/gasan1.jpg"?> alt=""></a>
+                            </div>
+                                <a href="gasan.php"><h5 class="mb-0"><?php echo "GASAN"?></h5></a>
+                            <small><?php echo "The municipality is bounded by the provincial capital, Boac, to the north and east, by Buenavista. It is the second-oldest municipality in Marinduque, after Boac. 
+                            Residents of Gasan are called Gaseños."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="gasan.php">Click to View More</a> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="team-item text-center rounded overflow-hidden">
+                            <div class="rounded-circle overflow-hidden m-4">
+                            <a href="buenavista.php"> <img class="img-fluid" src=<?php echo "img/buenavista1.jpg"?> alt=""></a> 
+                            </div>
+                                <a href="buenavista.php"><h5 class="mb-0"><?php echo "BUENAVISTA"?></h5></a> 
+                            <small><?php echo "This smallest, once-forgotten town of Buenavista, small but the most scenic place in Marinduque where the Malindig volcano looms over the lives of the peace-loving and culture-bound people living there."?></small>
+                            <div class="d-flex justify-content-center mt-3">
+                                <a href="buenavista.php">Click to View More</a> 
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Team End -->
+
+
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-down"></i></a>
     </div>
+
+
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Quick Links"?></h4>
+                        <a class="btn btn-link" href="index.php"><?php echo "Home"?></a>
+                        <a class="btn btn-link" href="about.php"><?php echo "About Us"?></a>
+                        <a class="btn btn-link" href="contact.php"><?php echo "Contact Us"?></a>
+                        <a class="btn btn-link" href="reviews.php"><?php echo "Reviews"?></a>
+                        
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Contact"?></h4>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><?php echo "Philippines"?></p>
+                        <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><?php echo "+012 345 67890"?></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><?php echo "marinduque@social.com"?></p>
+                        <div class="d-flex pt-2">
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+                            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Terms of Use"?></h4>
+                        <?php echo "<br> All text, photos, videos, files, applications, html codes, and other intellectual property rights (registered and unregistered) in and on our website are for personal use only."?></p>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Made By"?></h4>
+                        <p><?php echo "Mark Joseph Largo <br>
+                        Mark Angelo Romasanta <br>
+                        Michaela Ortega <br>
+                        | In compliance for IPT Final Project @ 2023
+
+                        "?></p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+        </div>
+        <!-- Footer End -->
 
     <!-- JavaScript Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

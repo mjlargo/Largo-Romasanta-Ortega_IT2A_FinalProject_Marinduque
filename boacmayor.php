@@ -156,23 +156,23 @@ $img1 = "img/mayor1.jpg";
       </div>
     </section><!-- End Testimonials Section -->
 
-          <!-- Footer Start -->
-        <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+    <!-- Footer Start -->
+    <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
             <div class="container py-5">
                 <div class="row g-5">
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Company"?></h4>
-                        <a class="btn btn-link" href=""><?php echo "About Us"?></a>
-                        <a class="btn btn-link" href=""><?php echo "Contact Us"?></a>
-                        <a class="btn btn-link" href=""><?php echo "Reservation"?></a>
-                        <a class="btn btn-link" href=""><?php echo "Privacy Policy"?></a>
-                        <a class="btn btn-link" href=""><?php echo "Terms & Condition"?></a>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Quick Links"?></h4>
+                        <a class="btn btn-link" href="index.php"><?php echo "Home"?></a>
+                        <a class="btn btn-link" href="about.php"><?php echo "About Us"?></a>
+                        <a class="btn btn-link" href="contact.php"><?php echo "Contact Us"?></a>
+                        <a class="btn btn-link" href="reviews.php"><?php echo "Reviews"?></a>
+                        
                     </div>
                     <div class="col-lg-3 col-md-6">
                         <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Contact"?></h4>
-                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><?php echo "123 Street, New York, USA"?></p>
+                        <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i><?php echo "Philippines"?></p>
                         <p class="mb-2"><i class="fa fa-phone-alt me-3"></i><?php echo "+012 345 67890"?></p>
-                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><?php echo "info@example.com"?></p>
+                        <p class="mb-2"><i class="fa fa-envelope me-3"></i><?php echo "marinduque@social.com"?></p>
                         <div class="d-flex pt-2">
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
                             <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
@@ -181,19 +181,18 @@ $img1 = "img/mayor1.jpg";
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Opening"?></h4>
-                        <h5 class="text-light fw-normal"><?php echo "Monday - Saturday"?></h5>
-                        <p><?php echo "09AM - 09PM"?></p>
-                        <h5 class="text-light fw-normal"><?php echo "Sunday"?></h5>
-                        <p><?php echo "10AM - 08PM"?></p>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Terms of Use"?></h4>
+                        <?php echo "<br> All text, photos, videos, files, applications, html codes, and other intellectual property rights (registered and unregistered) in and on our website are for personal use only."?></p>
                     </div>
                     <div class="col-lg-3 col-md-6">
-                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Newsletter"?></h4>
-                        <p><?php echo "Dolor amet sit justo amet elitr clita ipsum elitr est."?></p>
-                        <div class="position-relative mx-auto" style="max-width: 400px;">
-                            <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                        </div>
+                        <h4 class="section-title ff-secondary text-start text-primary fw-normal mb-4"><?php echo "Made By"?></h4>
+                        <p><?php echo "Mark Joseph Largo <br>
+                        Mark Angelo Romasanta <br>
+                        Michaela Ortega <br>
+                        | In compliance for IPT Final Project @ 2023
+
+                        "?></p>
+                        
                     </div>
                 </div>
             </div>
