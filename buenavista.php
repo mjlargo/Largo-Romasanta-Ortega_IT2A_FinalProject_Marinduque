@@ -1,4 +1,12 @@
 <?php
+session_start();
+if(!file_exists('users/' . $_SESSION['username'] . '.xml')) {
+    header('Location: login.php');
+    die;
+}
+?>
+
+<?php
 $img1 = "img/malbogs.jpg";
 $img2 = "img/bella.png";
 $img3 = "img/mount.png";
@@ -91,7 +99,7 @@ $img4 = "img/pilok.jpeg";
                         <a href="reviews.php" class="nav-item nav-link"><?php echo "Reviews"?></a>
                         <a href="contact.php" class="nav-item nav-link"><?php echo "Contact"?></a>
                     </div>
-                    <a href="sign.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
+                    <a href="logout.php" class="btn btn-primary py-2 px-4"><?php echo "Sign Out"?></a>
                 </div>
             </nav>
 

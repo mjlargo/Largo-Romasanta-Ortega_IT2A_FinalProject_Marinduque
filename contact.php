@@ -1,3 +1,10 @@
+<?php
+session_start();
+if(!file_exists('users/' . $_SESSION['username'] . '.xml')) {
+    header('Location: login.php');
+    die;
+}
+?>
 <!DOCTYPE php>
 <php lang="en">
 
@@ -82,7 +89,7 @@
                         <a href="reviews.php" class="nav-item nav-link"><?php echo "Reviews"?></a>
                         <a href="contact.php" class="nav-item nav-link active"><?php echo "Contact"?></a>
                     </div>
-                    <a href="sign.php" class="btn btn-primary py-2 px-4"><?php echo "Sign In"?></a>
+                    <a href="logout.php" class="btn btn-primary py-2 px-4"><?php echo "Sign Out"?></a>
                 </div>
             </nav>
 
