@@ -197,11 +197,11 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                                <a href="boac.php"><img class="img-fluid" src=<?php echo "img/gasan1.jpg"?> alt=""></a>
+                                <a href="gasan.php"><img class="img-fluid" src=<?php echo "img/gasan1.jpg"?> alt=""></a>
                             </div>
-                                <a href="boac.php"><h5 class="mb-0"><?php echo "GASAN"?></h5></a>
-                            <small><?php echo "The Capital Town of Marinduque and the 
-                            business,financial and economic center of the province. It has 61 Barangays grouped into 7 districts."?></small>
+                                <a href="gasan.php"><h5 class="mb-0"><?php echo "GASAN"?></h5></a>
+                            <small><?php echo "The municipality is bounded by the provincial capital, Boac, to the north and east, by Buenavista. It is the second-oldest municipality in Marinduque, after Boac. 
+                            Residents of Gasan are called Gaseños."?></small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a href="gasan.php">Click to View More</a> 
                             </div>
@@ -210,12 +210,12 @@
                     <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                         <div class="team-item text-center rounded overflow-hidden">
                             <div class="rounded-circle overflow-hidden m-4">
-                            <a href="mogpog.php"> <img class="img-fluid" src=<?php echo "img/mogpog1.jpg"?> alt=""></a> 
+                            <a href="buenavista.php"> <img class="img-fluid" src=<?php echo "img/buenavista1.jpg"?> alt=""></a> 
                             </div>
-                                <a href="mogpog.php"><h5 class="mb-0"><?php echo "MOGPOG"?></h5></a> 
-                            <small><?php echo "A coastal municipality in the island province of Marinduque. One of the country’s finest and probably the most picturesque of all natural harbors. "?></small>
+                                <a href="buenavista.php"><h5 class="mb-0"><?php echo "BUENAVISTA"?></h5></a> 
+                            <small><?php echo "This smallest, once-forgotten town of Buenavista, small but the most scenic place in Marinduque where the Malindig volcano looms over the lives of the peace-loving and culture-bound people living there"?></small>
                             <div class="d-flex justify-content-center mt-3">
-                                <a href="mogpog.php">Click to View More</a> 
+                                <a href="buenavista.php">Click to View More</a> 
                             </div>
                         </div>
                     </div>
