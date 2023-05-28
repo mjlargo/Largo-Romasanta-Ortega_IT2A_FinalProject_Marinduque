@@ -221,7 +221,7 @@ if(!file_exists('users/' . $_SESSION['username'] . '.xml')) {
                             <a href="buenavista.php"> <img class="img-fluid" src=<?php echo "img/buenavista1.jpg"?> alt=""></a> 
                             </div>
                                 <a href="buenavista.php"><h5 class="mb-0"><?php echo "BUENAVISTA"?></h5></a> 
-                            <small><?php echo "This smallest, once-forgotten town of Buenavista, small but the most scenic place in Marinduque where the Malindig volcano looms over the lives of the peace-loving and culture-bound people living there"?></small>
+                            <small><?php echo "This smallest, once-forgotten town of Buenavista, small but the most scenic place in Marinduque where the Malindig volcano looms over the lives of the peace-loving and culture-bound people living there."?></small>
                             <div class="d-flex justify-content-center mt-3">
                                 <a href="buenavista.php">Click to View More</a> 
                             </div>

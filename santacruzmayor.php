@@ -15,7 +15,7 @@ $img1 = "img/mayor3.jpg";
 
 <html>
     <meta charset="utf-8">
-    <title>Marinduque<?php echo "Bootstrap Restaurant Template"?></title>
+    <title>Mayor of Santa Cruz</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
