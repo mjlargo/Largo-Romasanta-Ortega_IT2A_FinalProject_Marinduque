@@ -117,7 +117,41 @@ $img1 = "img/1logo.png";
         <!-- Navbar & Hero End -->
 
 
-
+        <!-- About Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-5 align-items-center">
+                    <div class="col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.1s" src="img/moriones01.jpg">
+                            </div>
+                            <div class="col-6 text-start">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.3s" src="img/moriones02.jpg" style="margin-top: 25%;">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-75 wow zoomIn" data-wow-delay="0.5s" src="img/moriones05.jpg">
+                            </div>
+                            <div class="col-6 text-end">
+                                <img class="img-fluid rounded w-100 wow zoomIn" data-wow-delay="0.7s" src="img/moriones04.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <h5 class="section-title ff-secondary text-start text-primary fw-normal"><?php echo "The Home of"?></h5>
+                        <h1 class="mb-4"><?php echo "Moriones Lenten Rites"?></h1>
+                        <p class="mb-4"><?php echo "The Moriones Festival is celebrated every Holy Week by Roman Catholics in the province of Marindque. Just like many festivals in the Philippines, the Moriones Festival is a colorful celebration that centers on the costumes 
+                        and masks worn by penitents who march around the towns of the province as Roman soldiers."?></p>
+                        <p class="mb-4"><?php echo "The Moriones mask is usually made of wood carved with the face of a Roman soldier. Attached to the mask is the actual helmet with a crest made of feathers or horse hair."?></p>
+                        <div class="row g-4 mb-4">
+                        <div> 
+                        <a class="btn btn-primary py-3 px-5 mt-2" href="about.php"><?php echo "Read More"?></a>
+                        </div>   
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-down"></i></a>
