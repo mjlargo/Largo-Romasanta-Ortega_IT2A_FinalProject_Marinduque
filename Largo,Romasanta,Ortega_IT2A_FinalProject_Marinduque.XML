@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<marinduquewebsite>
+  <login>
+    <username>Enter username</username>
+    <password>Enter password</password>
+  </login>
+  <signup>
+    <username>Enter username</username>
+    <email>Enter email</email>
+    <password>Enter password</password>
+  </signup>
+  <pages>
+    <home>Home Page Content</home>
+    <about>About Us Page Content</about>
+    <mayors>
+      <mayor>Armi Carrion</mayor>
+      <mayor>Leo Livelo</mayor>
+      <mayor>Marisa Red</mayor>
+      <mayor>Lorna Velasco</mayor>
+      <mayor>Rolando Tolentino</mayor>
+      <mayor>Bong Siena</mayor>
+    </mayors>
+    <towns>
+      <town>Boac</town>
+      <town>Mogpog</town>
+      <town>Santa Cruz</town>
+      <town>Torrijos</town>
+      <town>Gasan</town>
+      <town>Buenavista</town>
+    </towns>
+    <reviews>
+      <tourist>
+        <name>Maria Salas</name>
+        <message>Message content..</message>
+      </tourist>
+      <tourist>
+        <name>Mark Leo</name>
+        <message>Message content..</message>
+      </tourist>
+      <tourist>
+        <name>Gela Dika</name>
+        <message>Message content..</message>
+      </tourist>
+      <tourist>
+        <name>Lisa Menda</name>
+        <message>Message content..</message>
+      </tourist>
+    </reviews>
+    <contact>
+      <yourname>Enter name</yourname>
+      <email>Enter email</email>
+      <subject>Enter subject</subject>
+      <message>Enter message</message>
+    </contact>
+  </pages>
+</marinduquewebsite>
